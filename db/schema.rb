@@ -17,10 +17,16 @@ ActiveRecord::Schema.define(version: 2022_02_01_195708) do
 
   create_table "bars", force: :cascade do |t|
     t.string "name"
-    t.string "location"
-    t.string "neighborhood"
+    t.float "longitude"
+    t.float "latitude"
+    t.string "description"
+    t.string "street_address"
+    t.string "bar_url"
+    t.string "img_url"
+    t.bigint "neighborhood_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["neighborhood_id"], name: "index_bars_on_neighborhood_id"
   end
 
   create_table "categories", force: :cascade do |t|

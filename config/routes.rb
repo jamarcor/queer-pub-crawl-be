@@ -13,4 +13,6 @@ Rails.application.routes.draw do
 
   get "/user_is_authed", to: "auth#user_is_authed"
 
+  get "/bar-listing", to: "bars#index"
+
 end
