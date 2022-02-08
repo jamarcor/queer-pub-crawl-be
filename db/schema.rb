@@ -17,10 +17,10 @@ ActiveRecord::Schema.define(version: 2022_02_01_195708) do
 
   create_table "bars", force: :cascade do |t|
     t.string "name"
-    t.float "longitude"
-    t.float "latitude"
-    t.string "description"
     t.string "street_address"
+    t.float "latitude"
+    t.float "longitude"
+    t.string "description"
     t.string "bar_url"
     t.string "img_url"
     t.bigint "neighborhood_id"
@@ -53,7 +53,7 @@ ActiveRecord::Schema.define(version: 2022_02_01_195708) do
 
   create_table "users", force: :cascade do |t|
     t.string "username"
-    t.integer "password"
+    t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
