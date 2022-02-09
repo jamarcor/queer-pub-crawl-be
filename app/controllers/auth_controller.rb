@@ -1,26 +1,33 @@
 class AuthController < ApplicationController
-    before_action :require_login, only: [:auto_login]
-    def login
+
+  skip_before_action :require_login, only: [:login, :auto_login]
+# before_action :require_login
+
+  # log in as an existing user
+  def login
       user = User.find_by(username: params[:username])
+  
       if user && user.authenticate(params[:password])
-          payload = {user_id: user.id}
-          token = encode_token(payload)
-          render json: {user: user, jwt: token, success: "Welcome back, #{user.username}"}
+        payload = {user_id: user.id}
+        token = encode_token(payload)
+        render json: {user: user, token: token, succes: "Welcome back, #{user.username}"}
       else
-          render json: {failure: "Log in failed! Username or password invalid!"}
+        render json: {error: "Invalid username or password!!!"}, status: :unprocessable_entity
       end
     end
-  
+
     def auto_login
+      #render json: user
       if session_user
-        render json: session_user
+        render json: {user: session_user}
+        #session_user
       else
-        render json: {errors: "No User Logged In"}
+        render json: {errors: "No user logged in."}
       end
     end
-  
+
     def user_is_authed
       render json: {message: "You are authorized"}
     end
-  end
-  
+
+end

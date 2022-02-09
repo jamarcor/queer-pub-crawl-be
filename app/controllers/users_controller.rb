@@ -1,20 +1,23 @@
 class UsersController < ApplicationController
-   before_action :require_login, only: [:poo]
-    def create
-        user = User.create!(user_params)
-        if user.valid?
-            payload = { user_id: user.id }
+
+    skip_before_action :require_login, only: [:create]
+  
+       # register a new user
+       def create
+          user = User.create!(user_params)
+          if user.valid?
+            payload = {user_id: user.id}
             token = encode_token(payload)
-            render json: { user: user, jwt: token }, status: :ok
-        else
-            render json: { errors: user.errors.full_messages }, status: :not_acceptable
+            render json: {user: user, include: [jwt: token]}, status: :ok
+          else
+            render json: {errors: user.errors.full_messages}, status: :not_acceptable
+          end
         end
-    end
-    
-
-    private
-
-    def user_params
-        params.require(:user).permit(:username, :password)
-    end
-end
+  
+        private
+  
+        def user_params
+          params.permit(:username, :password)
+        end
+  
+  end

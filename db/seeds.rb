@@ -85,7 +85,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "http://www.the440.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Twin Peaks",
@@ -95,7 +95,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "https://www.twinpeakstavern.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "The Mix",
@@ -105,7 +105,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "https://www.thesfmix.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Midnight Sun",
@@ -115,7 +115,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "https://www.midnightsunsf.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Moby Dick",
@@ -125,7 +125,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "https://twitter.com/mobydicksf?lang=en",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Last Call",
@@ -135,7 +135,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "https://www.thelastcallbar.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "The Edge",
@@ -145,7 +145,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "https://www.facebook.com/EdgeSF/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Toad Hall",
@@ -155,7 +155,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "http://toadhallbar.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Beaux",
@@ -165,7 +165,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "https://www.beauxsf.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "The Cafe",
@@ -175,7 +175,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "https://cafesf.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Hi Tops",
@@ -185,7 +185,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "https://www.hitopsbar.com/hi-tops-sf",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Lookout",
@@ -195,7 +195,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "(check for website later) https://m.facebook.com/profile.php?id=311959905596956&__tn__=C-R",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Pilsner Inn",
@@ -205,7 +205,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 1,
         bar_url: "http://www.pilsnerinn.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Oasis",
@@ -215,7 +215,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 2,
         bar_url: "https://www.sfoasis.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "SF Eagle",
@@ -225,7 +225,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 2,
         bar_url: "https://thesfeagle.com/?v=7516fd43adaa",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Lone Star Saloon",
@@ -235,7 +235,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 2,
         bar_url: "https://www.lonestarsf.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Hole in the Wall Saloon",
@@ -245,7 +245,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 2,
         bar_url: "https://www.facebook.com/groups/HITWSfans/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Powerhouse",
@@ -255,7 +255,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 2,
         bar_url: "https://www.powerhousebar.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Asia SF",
@@ -265,7 +265,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 2,
         bar_url: "https://sf.asiasf.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Club OMG",
@@ -275,7 +275,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 2,
         bar_url: "http://www.clubomgsf.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Aunt Charlie's Lounge",
@@ -285,7 +285,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 3,
         bar_url: "https://www.auntcharlieslounge.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "The Cinch Saloon",
@@ -295,7 +295,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 3,
         bar_url: "https://www.facebook.com/thecinchsaloon",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Ginger's",
@@ -305,7 +305,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 3,
         bar_url: "https://www.gingers.bar/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Trax",
@@ -315,7 +315,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 3,
         bar_url: "https://traxbarsf.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Phone Booth",
@@ -325,7 +325,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 4,
         bar_url: "https://www.yelp.com/biz/phone-booth-san-francisco",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "El Rio",
@@ -335,7 +335,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 4,
         bar_url: "https://www.elriosf.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Martuni's",
@@ -345,7 +345,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 4,
         bar_url: "https://www.facebook.com/Martunis-994554857261865/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Jolene's Bar",
@@ -355,7 +355,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 4,
         bar_url: "https://www.jolenessf.com/index.html",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "Wild Side West",
@@ -365,7 +365,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 4,
         bar_url: "https://www.wildsidewest.com/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       },
       {
         name: "The Mint",
@@ -375,7 +375,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 4,
         bar_url: "https://themint.net/",
-        img_url: "https://ibb.co/XtPPFmn"
+        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       }
 
     # {
