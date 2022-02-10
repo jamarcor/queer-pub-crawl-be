@@ -17,4 +17,5 @@ rescue_from ActiveRecord::RecordNotFound, with: :oopsies
     def oopsies
         render json: { "error": "Category not found" }, status: :not_found
     end
+    
 end

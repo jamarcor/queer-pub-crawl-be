@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :types
   resources :neighborhoods, only: [:index, :show]
   resources :categories, only: [:index, :show]
   resources :bars, only: [:index, :show]

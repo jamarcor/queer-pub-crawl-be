@@ -54,6 +54,18 @@ Category.create!([
     },
     {
         category: "Lesbian"
+    },
+    {
+        category:"Drag"
+    },
+    {
+        category:"Inclusive"
+    },
+    {
+        category:"Allies"
+    },
+    {
+        category:"Sports"
     }
 ])
 
@@ -71,8 +83,9 @@ Neighborhood.create!([
     },
     {
     name: "North of Market"
-    }
+    },
 ])
+
 
 puts "Seeding bars"
 
@@ -378,46 +391,6 @@ Bar.create!([
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
       }
 
-    # {
-    # name: "440",
-    # longitude: 242.133,
-    # latitude: 124.233,
-    # description: "Daddy dive bar",
-    # street_address: "440 Castro",
-    # neighborhood_id: 1,
-    # bar_url: "http://www.the440.com/",
-    # img_url: "http://www.the440.com/Images/gay-bar-440Castro-logo.jpg",
-    # },
-    # {
-    # name: "Beaux",
-    # longitude: 2342.1231,
-    # latitude: 232.112,
-    # description: "Twink dance bar",
-    # street_address: "2344 Market St",
-    # neighborhood_id: 2,
-    # bar_url: "https://www.beauxsf.com/",
-    # img_url: "public/logo.png",
-    # },
-    # {
-    # name: "Martuni's",
-    # longitude: 2451.21,
-    # latitude: 523.121,
-    # description: "Piano bar with good martinis",
-    # street_address: "4 Valencia St",
-    # neighborhood_id: 2,
-    # bar_url: "https://www.facebook.com/Martunis-994554857261865x/",
-    # img_url: "http://www.the440.com/Images/gay-bar-440Castro-logo.jpg",
-    # },
-    # {
-    # name: "The SF Eagle",
-    # longitude: 13241.31,
-    # latitude: 1412.121,
-    # description: "Leather bar",
-    # street_address: "398 12th St",
-    # neighborhood_id: 4,
-    # bar_url: "https://thesfeagle.com/?v=7516fd43adaa",
-    # img_url: "http://www.the440.com/Images/gay-bar-440Castro-logo.jpg",
-    # }
 ])
 
 puts "Seeding reviews"
@@ -442,9 +415,64 @@ Review.create!([
     user_id: 3,
     bar_id: 3,
     review: "can't remember!"
-    },
+    }
 ])
 
+puts "Seeding bar categories"
 
+# BarCategory.create!([
+#     {
+#         bar_id: 1,
+#         category_id:2 
+#     },
+#     {
+#         bar_id: 3,
+#         category_id: 1
+#     },
+#     {
+#         bar_id: 4,
+#         category_id: 2
+#     },
+#     {
+#         bar_id: 4,
+#         category_id: 1
+#     },
+#     {
+#         bar_id: 28,
+#         category_id: 
+#     },
+#     {
+#         bar_id: 27,
+#         category_id:2 
+#     },
+#     {
+#         bar_id: 21,
+#         category_id: 29
+#     },
+#     {
+#         bar_id: 31,
+#         category_id: 2
+#     },
+#     {
+#         bar_id: 2,
+#         category_id: 3
+#     },
+#     {
+#         bar_id: 2,
+#         category_id: 5
+#     },
+# ])
+
+cat_arr=[1,2,3,4,5,6,7,8,9,10]
+bar_arr = [1,2,3,4,5,6,7,8,30]
+BarCategory.create!(bar_id: bar_arr.sample, category_id: cat_arr.sample)
+
+x = 0
+
+while x < 100 do 
+
+  BarCategory.create!(bar_id: bar_arr.sample, category_id: cat_arr.sample)
+x = x + 1
+end
 
 puts "Done seeding"
