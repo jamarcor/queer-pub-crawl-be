@@ -1,8 +1,10 @@
 class BarSerializer < ActiveModel::Serializer
   attributes :id,
   :name,
-  :description,
+  :latitude,
+  :longitude,
   :street_address,
+  :description,
   :bar_url,
   :img_url,
   :neighborhood
