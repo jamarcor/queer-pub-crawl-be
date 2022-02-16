@@ -7,5 +7,7 @@ class BarSerializer < ActiveModel::Serializer
   :description,
   :bar_url,
   :img_url,
-  :neighborhood
+  :neighborhood,
+  :reviews,
+  :bar_categories
 end

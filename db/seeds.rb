@@ -33,39 +33,51 @@ puts "Seeding create"
 Category.create!([
     {
         category: "Dance"
-    },
-    {
-        category: "Darkroom"
-    },
-    {
-        category: "Bear"
+        #1
     },
     {
         category: "Dive"
+        #2
     },
     {
-        category: "Event space"
+        category: "Inclusive"
+        #3
+    },
+    {
+        category: "Sports"
+        #4
+    },
+    {
+        category: "Patio"
+        #5
+    },
+    {
+        category: "Drag"
+        #6
+    },
+    {
+        category: "Bear"
+        #7
     },
     {
         category: "Twink"
+        #8
     },
     {
-        category: "Historic"
+        category:"Lesbian"
+        #9
     },
     {
-        category: "Lesbian"
+        category:"Queer"
+        #10
     },
     {
-        category:"Drag"
+        category:"Events"
+        #11
     },
     {
-        category:"Inclusive"
-    },
-    {
-        category:"Allies"
-    },
-    {
-        category:"Sports"
+        category:"Historic"
+        #12
     }
 ])
 
@@ -420,59 +432,859 @@ Review.create!([
 
 puts "Seeding bar categories"
 
-# BarCategory.create!([
-#     {
-#         bar_id: 1,
-#         category_id:2 
-#     },
-#     {
-#         bar_id: 3,
-#         category_id: 1
-#     },
-#     {
-#         bar_id: 4,
-#         category_id: 2
-#     },
-#     {
-#         bar_id: 4,
-#         category_id: 1
-#     },
-#     {
-#         bar_id: 28,
-#         category_id: 
-#     },
-#     {
-#         bar_id: 27,
-#         category_id:2 
-#     },
-#     {
-#         bar_id: 21,
-#         category_id: 29
-#     },
-#     {
-#         bar_id: 31,
-#         category_id: 2
-#     },
-#     {
-#         bar_id: 2,
-#         category_id: 3
-#     },
-#     {
-#         bar_id: 2,
-#         category_id: 5
-#     },
-# ])
+BarCategory.create!([
+    {
+        bar_id: 1,
+        category_id: 2 
+    },
+    {
+        bar_id: 1,
+        category_id: 7
+    },
+    {
+        bar_id: 1,
+        category_id: 11
+    },
+    {
+        bar_id: 1,
+        category_id: 3
+    },
+    {
+        bar_id: 2,
+        category_id: 1 
+    },
+    {
+        bar_id: 2,
+        category_id: 2
+    },
+    {
+        bar_id: 2,
+        category_id: 3
+    },
+    {
+        bar_id: 2,
+        category_id: 5
+    },
+    {
+        bar_id: 2,
+        category_id: 7
+    },
+    {
+        bar_id: 2,
+        category_id: 10
+    },
+    {
+        bar_id: 2,
+        category_id: 12
+    },
+    {
+        bar_id: 3,
+        category_id: 1
+    },
+    {
+        bar_id: 3,
+        category_id: 2
+    },
+    {
+        bar_id: 3,
+        category_id: 4
+    },
+    {
+        bar_id: 3,
+        category_id: 5
+    },
+    {
+        bar_id: 3,
+        category_id: 6
+    },
+    {
+        bar_id: 3,
+        category_id: 6
+    },
+    {
+        bar_id: 3,
+        category_id: 8
+    },
+    {
+        bar_id: 3,
+        category_id: 11
+    },
+    {
+        bar_id: 4,
+        category_id: 1 
+    },
+    {
+        bar_id: 4,
+        category_id: 6
+    },
+    {
+        bar_id: 4,
+        category_id: 7
+    },
+    {
+        bar_id: 4,
+        category_id: 8
+    },
+    {
+        bar_id: 4,
+        category_id: 10
+    },
+    {
+        bar_id: 4,
+        category_id: 11
+    },
+    {
+        bar_id: 5,
+        category_id: 2
+    },
+    {
+        bar_id: 5,
+        category_id: 3
+    },
+    {
+        bar_id: 5,
+        category_id: 4
+    },
+    {
+        bar_id: 5,
+        category_id: 6
+    },
+    {
+        bar_id: 5,
+        category_id: 7
+    },
+    {
+        bar_id: 5,
+        category_id: 8
+    },
+    {
+        bar_id: 5,
+        category_id: 10
+    },
+    {
+        bar_id: 5,
+        category_id: 11
+    },
+    {
+        bar_id: 5,
+        category_id: 12
+    },
+    {
+        bar_id: 6,
+        category_id: 2
+    },
+    {
+        bar_id: 6,
+        category_id: 3
+    },
+    {
+        bar_id: 6,
+        category_id: 4
+    },
+    {
+        bar_id: 6,
+        category_id: 7
+    },
+    {
+        bar_id: 6,
+        category_id: 8
+    },
+    {
+        bar_id: 6,
+        category_id: 10
+    },
+    {
+        bar_id: 6,
+        category_id: 12
+    },
+    {
+        bar_id: 7,
+        category_id: 1
+    },
+    {
+        bar_id: 7,
+        category_id: 2
+    },
+    {
+        bar_id: 7,
+        category_id: 3
+    },
+    {
+        bar_id: 7,
+        category_id: 4
+    },
+    {
+        bar_id: 7,
+        category_id: 5
+    },
+    {
+        bar_id: 7,
+        category_id: 6
+    },
+    {
+        bar_id: 7,
+        category_id: 7
+    },
+    {
+        bar_id: 7,
+        category_id: 8
+    },
+    {
+        bar_id: 7,
+        category_id: 10
+    },
+    {
+        bar_id: 7,
+        category_id: 11
+    },
+    {
+        bar_id: 8,
+        category_id: 1
+    },
+    {
+        bar_id: 8,
+        category_id: 4
+    },
+    {
+        bar_id: 8,
+        category_id: 5
+    },
+    {
+        bar_id: 8,
+        category_id: 6
+    },
+    {
+        bar_id: 8,
+        category_id: 8
+    },
+    {
+        bar_id: 8,
+        category_id: 10
+    },
+    {
+        bar_id: 8,
+        category_id: 11
+    },
+    {
+        bar_id: 9,
+        category_id: 1
+    },
+    {
+        bar_id: 9,
+        category_id: 6
+    },
+    {
+        bar_id: 9,
+        category_id: 8
+    },
+    {
+        bar_id: 9,
+        category_id: 10
+    },
+    {
+        bar_id: 9,
+        category_id: 11
+    },
+    {
+        bar_id: 10,
+        category_id: 3
+    },
+    {
+        bar_id: 10,
+        category_id: 6
+    },
+    {
+        bar_id: 10,
+        category_id: 7
+    },
+    {
+        bar_id: 10,
+        category_id: 8
+    },
+    {
+        bar_id: 10,
+        category_id: 10
+    },
+    {
+        bar_id: 10,
+        category_id: 11
+    },
+    {
+        bar_id: 11,
+        category_id: 3
+    },
+    {
+        bar_id: 11,
+        category_id: 4
+    },
+    {
+        bar_id: 11,
+        category_id: 6
+    },
+    {
+        bar_id: 11,
+        category_id: 8
+    },
+    {
+        bar_id: 11,
+        category_id: 11
+    },
+    {
+        bar_id: 12,
+        category_id: 1
+    },
+    {
+        bar_id: 12,
+        category_id: 1
+    },
+    {
+        bar_id: 12,
+        category_id: 2
+    },
+    {
+        bar_id: 12,
+        category_id: 3
+    },
+    {
+        bar_id: 12,
+        category_id: 4
+    },
+    {
+        bar_id: 12,
+        category_id: 6
+    },
+    {
+        bar_id: 12,
+        category_id: 8
+    },
+    {
+        bar_id: 12,
+        category_id: 11
+    },
+    {
+        bar_id: 13,
+        category_id: 2
+    },
+    {
+        bar_id: 13,
+        category_id: 3
+    },
+    {
+        bar_id: 13,
+        category_id: 4
+    },
+    {
+        bar_id: 13,
+        category_id: 5
+    },
+    {
+        bar_id: 13,
+        category_id: 7
+    },
+    {
+        bar_id: 13,
+        category_id: 9
+    },
+    {
+        bar_id: 13,
+        category_id: 10
+    },
+    {
+        bar_id: 13,
+        category_id: 11
+    },
+    {
+        bar_id: 14,
+        category_id: 1
+    },
+    {
+        bar_id: 14,
+        category_id: 2
+    },
+    {
+        bar_id: 14,
+        category_id: 3
+    },
+    {
+        bar_id: 14,
+        category_id: 5
+    },
+    {
+        bar_id: 14,
+        category_id: 6
+    },
+    {
+        bar_id: 14,
+        category_id: 7
+    },
+    {
+        bar_id: 14,
+        category_id: 8
+    },
+    {
+        bar_id: 14,
+        category_id: 9
+    },
+    {
+        bar_id: 14,
+        category_id: 10
+    },
+    {
+        bar_id: 14,
+        category_id: 11
+    },
+    {
+        bar_id: 14,
+        category_id: 12
+    },
+    {
+        bar_id: 16,
+        category_id: 1
+    },
+    {
+        bar_id: 15,
+        category_id: 2
+    },
+    {
+        bar_id: 15,
+        category_id: 4
+    },
+    {
+        bar_id: 15,
+        category_id: 5
+    },
+    {
+        bar_id: 15,
+        category_id: 7
+    },
+    {
+        bar_id: 15,
+        category_id: 10
+    },
+    {
+        bar_id: 15,
+        category_id: 11
+    },
+    {
+        bar_id: 15,
+        category_id: 12
+    },
+    {
+        bar_id: 16,
+        category_id: 1
+    },
+    {
+        bar_id: 16,
+        category_id: 2
+    },
+    {
+        bar_id: 16,
+        category_id: 5
+    },
+    {
+        bar_id: 16,
+        category_id: 7
+    },
+    {
+        bar_id: 16,
+        category_id: 10
+    },
+    {
+        bar_id: 16,
+        category_id: 11
+    },
+    {
+        bar_id: 16,
+        category_id: 12
+    },
+    {
+        bar_id: 17,
+        category_id: 1
+    },
+    {
+        bar_id: 17,
+        category_id: 2
+    },
+    {
+        bar_id: 17,
+        category_id: 5
+    },
+    {
+        bar_id: 17,
+        category_id: 7
+    },
+    {
+        bar_id: 17,
+        category_id: 10
+    },
+    {
+        bar_id: 18,
+        category_id: 1
+    },
+    {
+        bar_id: 18,
+        category_id: 2
+    },
+    {
+        bar_id: 18,
+        category_id: 5
+    },
+    {
+        bar_id: 18,
+        category_id: 7
+    },
+    {
+        bar_id: 18,
+        category_id: 11
+    },
+    {
+        bar_id: 19,
+        category_id: 1
+    },
+    {
+        bar_id: 19,
+        category_id: 3
+    },
+    {
+        bar_id: 19,
+        category_id: 6
+    },
+    {
+        bar_id: 19,
+        category_id: 9
+    },
+    {
+        bar_id: 19,
+        category_id: 10
+    },
+    {
+        bar_id: 19,
+        category_id: 11
+    },
+    {
+        bar_id: 20,
+        category_id: 1
+    },
+    {
+        bar_id: 20,
+        category_id: 3
+    },
+    {
+        bar_id: 20,
+        category_id: 6
+    },
+    {
+        bar_id: 20,
+        category_id: 7
+    },
+    {
+        bar_id: 20,
+        category_id: 8
+    },
+    {
+        bar_id: 20,
+        category_id: 9
+    },
+    {
+        bar_id: 20,
+        category_id: 10
+    },
+    {
+        bar_id: 20,
+        category_id: 11
+    },
+    {
+        bar_id: 21,
+        category_id: 2
+    },
+    {
+        bar_id: 21,
+        category_id: 3
+    },
+    {
+        bar_id: 21,
+        category_id: 4
+    },
+    {
+        bar_id: 21,
+        category_id: 6
+    },
+    {
+        bar_id: 21,
+        category_id: 7
+    },
+    {
+        bar_id: 21,
+        category_id: 8
+    },
+    {
+        bar_id: 21,
+        category_id: 10
+    },
+    {
+        bar_id: 21,
+        category_id: 11
+    },
+    {
+        bar_id: 21,
+        category_id: 12
+    },
+    {
+        bar_id: 22,
+        category_id: 2
+    },
+    {
+        bar_id: 22,
+        category_id: 3
+    },
+    {
+        bar_id: 22,
+        category_id: 4
+    },
+    {
+        bar_id: 22,
+        category_id: 5
+    },
+    {
+        bar_id: 22,
+        category_id: 6
+    },
+    {
+        bar_id: 22,
+        category_id: 7
+    },
+    {
+        bar_id: 22,
+        category_id: 8
+    },
+    {
+        bar_id: 22,
+        category_id: 9
+    },
+    {
+        bar_id: 22,
+        category_id: 10
+    },
+    {
+        bar_id: 22,
+        category_id: 12
+    },
+    {
+        bar_id: 23,
+        category_id: 1
+    },
+    {
+        bar_id: 23,
+        category_id: 2
+    },
+    {
+        bar_id: 23,
+        category_id: 3
+    },
+    {
+        bar_id: 23,
+        category_id: 6
+    },
+    {
+        bar_id: 23,
+        category_id: 7
+    },
+    {
+        bar_id: 23,
+        category_id: 8
+    },
+    {
+        bar_id: 23,
+        category_id: 10
+    },
+    {
+        bar_id: 23,
+        category_id: 11
+    },
+    {
+        bar_id: 23,
+        category_id: 12
+    },
+    {
+        bar_id: 24,
+        category_id: 2
+    },
+    {
+        bar_id: 24,
+        category_id: 3
+    },
+    {
+        bar_id: 24,
+        category_id: 4
+    },
+    {
+        bar_id: 24,
+        category_id: 10
+    },
+    {
+        bar_id: 24,
+        category_id: 12
+    },
+    {
+        bar_id: 25,
+        category_id: 2
+    },
+    {
+        bar_id: 25,
+        category_id: 3
+    },
+    {
+        bar_id: 25,
+        category_id: 9
+    },
+    {
+        bar_id: 25,
+        category_id: 10
+    },
+    {
+        bar_id: 25,
+        category_id: 12
+    },
+    {
+        bar_id: 26,
+        category_id: 1
+    },
+    {
+        bar_id: 26,
+        category_id: 3
+    },
+    {
+        bar_id: 26,
+        category_id: 5
+    },
+    {
+        bar_id: 26,
+        category_id: 6
+    },
+    {
+        bar_id: 26,
+        category_id: 9
+    },
+    {
+        bar_id: 26,
+        category_id: 10
+    },
+    {
+        bar_id: 26,
+        category_id: 11
+    },
+    {
+        bar_id: 27,
+        category_id: 1
+    },
+    {
+        bar_id: 27,
+        category_id: 3
+    },
+    {
+        bar_id: 27,
+        category_id: 6
+    },
+    {
+        bar_id: 27,
+        category_id: 9
+    },
+    {
+        bar_id: 27,
+        category_id: 10
+    },
+    {
+        bar_id: 27,
+        category_id: 11
+    },
+    {
+        bar_id: 28,
+        category_id: 1
+    },
+    {
+        bar_id: 28,
+        category_id: 3
+    },
+    {
+        bar_id: 28,
+        category_id: 6
+    },
+    {
+        bar_id: 28,
+        category_id: 9
+    },
+    {
+        bar_id: 28,
+        category_id: 10
+    },
+    {
+        bar_id: 28,
+        category_id: 11
+    },
+    {
+        bar_id: 29,
+        category_id: 2
+    },
+    {
+        bar_id: 29,
+        category_id: 4
+    },
+    {
+        bar_id: 29,
+        category_id: 5
+    },
+    {
+        bar_id: 29,
+        category_id: 9
+    },
+    {
+        bar_id: 29,
+        category_id: 10
+    },
+    {
+        bar_id: 29,
+        category_id: 12
+    },
+    {
+        bar_id: 30,
+        category_id: 1
+    },
+    {
+        bar_id: 30,
+        category_id: 2
+    },
+    {
+        bar_id: 30,
+        category_id: 3
+    },
+    {
+        bar_id: 30,
+        category_id: 7
+    },
+    {
+        bar_id: 30,
+        category_id: 8
+    },
+    {
+        bar_id: 30,
+        category_id: 9
+    },
+    {
+        bar_id: 30,
+        category_id: 10
+    }
+])
 
-cat_arr=[1,2,3,4,5,6,7,8,9,10]
-bar_arr = [1,2,3,4,5,6,7,8,30]
-BarCategory.create!(bar_id: bar_arr.sample, category_id: cat_arr.sample)
+# cat_arr=[1,2,3,4,5,6,7,8,9,10]
+# bar_arr = [1,2,3,4,5,6,7,8,30]
+# BarCategory.create!(bar_id: bar_arr.sample, category_id: cat_arr.sample)
 
-x = 0
+# x = 0
 
-while x < 100 do 
+# while x < 100 do 
 
-  BarCategory.create!(bar_id: bar_arr.sample, category_id: cat_arr.sample)
-x = x + 1
-end
+#   BarCategory.create!(bar_id: bar_arr.sample, category_id: cat_arr.sample)
+# x = x + 1
+# end
 
 puts "Done seeding"

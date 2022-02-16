@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :bars, only: [:index, :show]
   resources :reviews, only: [:index, :show, :create, :delete]
   resources :users, only: [:create]
+  resources :bar_categories, only: [:index, :show]
 
   post "/login", to: "auth#login"
   get "/auto_login", to: "auth#auto_login"

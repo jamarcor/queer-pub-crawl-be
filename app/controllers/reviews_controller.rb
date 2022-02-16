@@ -1,17 +1,19 @@
 class ReviewsController < ApplicationController
 rescue_from ActiveRecord::RecordNotFound, with: :render_error
-
+skip_before_action :require_login
     def index
         render json: Review.all, status: :ok
     end
 
     def show
-        review = find_review, status: :ok
+        review = Review.find(user_id: params[:user_id], bar_id: params[:bar_id])
+        render json: review, status: :ok
     end
 
     def create
+        puts "created"
         create_review = Review.create!(review_params)
-        render json: review, status: :created
+        render json: create_review, status: :created
     end
 
     def destroy

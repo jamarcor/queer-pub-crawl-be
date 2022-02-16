@@ -1,8 +1,8 @@
 class BarCategoriesController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :oopsies
-
+    skip_before_action :require_login
     def index
-        render json: Type.all, status: :ok
+        render json: BarCategory.all, status: :ok
     end
 
     def show
@@ -12,7 +12,7 @@ class BarCategoriesController < ApplicationController
     private
 
     def find_type
-        Type.fin(params[:id])
+        Type.find(params[:id, :bar_id, :category_id])
     end
 
     def oopsies

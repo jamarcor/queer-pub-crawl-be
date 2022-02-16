@@ -1,5 +1,6 @@
 class CategoriesController < ApplicationController
 rescue_from ActiveRecord::RecordNotFound, with: :oopsies
+skip_before_action :require_login
     def index
         render json: Category.all, status: :ok
     end
