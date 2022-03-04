@@ -107,7 +107,9 @@ Bar.create!([
         street_address: "440 Castro St.",
         latitude: 37.76965,
         longitude: 122.43614,
-        description: "lorem ipsum",
+        description: "440 Castro is located at 440 Castro Street in San Francisco (some people ask). We are near the intersection of Castro and Market and directly across the street from the Castro Theater.
+
+        We are a neighborhood bar that’s home to locals and tourists. If you’re visiting for San Francisco Gay Pride, Up Your Alley Dore Alley Fair, or the Folsom Street Fair, 440 is a great place to meet up with friends and make new ones.",
         neighborhood_id: 1,
         bar_url: "http://www.the440.com/",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
@@ -117,7 +119,7 @@ Bar.create!([
         street_address: "401 Castro St, San Francisco, CA 94114",
         latitude: 37.76227,
         longitude: -122.43495,
-        description: "lorem ipsum",
+        description: "Gay bar serving classic cocktails & beers on tap, also boasts vintage furniture & big glass windows.",
         neighborhood_id: 1,
         bar_url: "https://www.twinpeakstavern.com/",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
@@ -127,7 +129,7 @@ Bar.create!([
         street_address: "4086 18th St, San Francisco, CA 94114",
         latitude: 37.76115,
         longitude: -122.43449,
-        description: "lorem ipsum",
+        description: "This small gay bar has a patio & pool table, plus frequent happy-hour specials.",
         neighborhood_id: 1,
         bar_url: "https://www.thesfmix.com/",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
@@ -137,7 +139,8 @@ Bar.create!([
         street_address: "4067 18th St, San Francisco, CA 94114",
         latitude: 37.76071,
         longitude: -122.43427,
-        description: "lorem ipsum",
+        description: "
+        Eyes are on the videos at this Castro gay bar with strong drinks & a mixed crowd.",
         neighborhood_id: 1,
         bar_url: "https://www.midnightsunsf.com/",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
@@ -147,7 +150,7 @@ Bar.create!([
         street_address: "4049 18th St, San Francisco, CA 94114",
         latitude: 37.76077,
         longitude: -122.43373,
-        description: "lorem ipsum",
+        description: "This longtime gay watering hole exudes a laid-back vibe with pool, pinball & video games.",
         neighborhood_id: 1,
         bar_url: "https://twitter.com/mobydicksf?lang=en",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
@@ -157,7 +160,7 @@ Bar.create!([
         street_address: "3988 18th St, San Francisco, CA 94114",
         latitude: 37.76107,
         longitude: -122.43255,
-        description: "lorem ipsum",
+        description: "Low-key bar with a fireplace & '80s soundtrack claiming to have the Castro's longest happy hour.",
         neighborhood_id: 1,
         bar_url: "https://www.thelastcallbar.com/",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
@@ -167,7 +170,7 @@ Bar.create!([
         street_address: "4149 18th St, San Francisco, CA 94114",
         latitude: 37.76081,
         longitude: -122.43573,
-        description: "lorem ipsum",
+        description: "Both themed events & street-facing windows enhance the people-watching scene at this Castro gay bar.",
         neighborhood_id: 1,
         bar_url: "https://www.facebook.com/EdgeSF/",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
@@ -177,7 +180,7 @@ Bar.create!([
         street_address: "4146 18th St, San Francisco, CA 94114",
         latitude: 37.76089,
         longitude: -122.43575,
-        description: "lorem ipsum",
+        description: "Versatile space draws gay crowds with DJs, a lengthy bar, a smoke-friendly patio & happy hours.",
         neighborhood_id: 1,
         bar_url: "http://toadhallbar.com/",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
@@ -187,7 +190,7 @@ Bar.create!([
         street_address: "2344 Market St, San Francisco, CA 94114",
         latitude: 37.751362,
         longitude: -122.442963,
-        description: "lorem ipsum",
+        description: "Happy hour, live entertainment & dance music showcased at a vibrant, edgy lounge.",
         neighborhood_id: 1,
         bar_url: "https://www.beauxsf.com/",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
@@ -197,7 +200,7 @@ Bar.create!([
         street_address: "2369 Market St, San Francisco, CA 94114",
         latitude: 37.762959,
         longitude: -122.434509,
-        description: "lorem ipsum",
+        description: "Gays & straights dance the night away at this vibrant club with top DJs & popular theme nights.",
         neighborhood_id: 1,
         bar_url: "https://cafesf.com/",
         img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
