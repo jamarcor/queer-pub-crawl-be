@@ -21,3 +21,16 @@ class UsersController < ApplicationController
         end
   
   end
+
+
+#   create user, show User, delete User (edited) 
+
+
+
+
+# 11:13
+# show/index categories, create categories (edited) 
+# 11:14
+# index/show products, create products, delete products, update products
+# 11:14
+# create purchases, show purchase, index purchases
