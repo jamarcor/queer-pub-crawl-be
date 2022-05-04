@@ -110,7 +110,7 @@ Bar.create!([
         description: "Castro's beariest bar with a classic cruisy aesthetic.",
         neighborhood_id: 1,
         bar_url: "http://www.the440.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/EDoYZrm.png"
       },
       {
         name: "Twin Peaks",
@@ -120,7 +120,7 @@ Bar.create!([
         description: "National gay landmark with classic cocktails and cozy seating.",
         neighborhood_id: 1,
         bar_url: "https://www.twinpeakstavern.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/LEPEigJ.png"
       },
       {
         name: "The Mix",
@@ -130,7 +130,7 @@ Bar.create!([
         description: "The patio is the centerpiece of this casually diverse bar.",
         neighborhood_id: 1,
         bar_url: "https://www.thesfmix.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/TRhKZ4M.png"
       },
       {
         name: "Midnight Sun",
@@ -140,7 +140,7 @@ Bar.create!([
         description: " Castro's oldest video bar that fills up for Drag Race",
         neighborhood_id: 1,
         bar_url: "https://www.midnightsunsf.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/kvu88O1.png"
       },
       {
         name: "Moby Dick",
@@ -150,7 +150,7 @@ Bar.create!([
         description: "Mixed-crowd bar with pool and pinball.",
         neighborhood_id: 1,
         bar_url: "https://twitter.com/mobydicksf?lang=en",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/k7UAjcQ.png"
       },
       {
         name: "Last Call",
@@ -160,7 +160,7 @@ Bar.create!([
         description: "Cozy pub known for having the Castro's longest running happy hour.",
         neighborhood_id: 1,
         bar_url: "https://www.thelastcallbar.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/LVYJhcm.png"
       },
       {
         name: "The Edge",
@@ -170,7 +170,7 @@ Bar.create!([
         description: "Dark and divey bar with regular go-gos and theme nights.",
         neighborhood_id: 1,
         bar_url: "https://www.facebook.com/EdgeSF/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/8hAV1qt.png"
       },
       {
         name: "Toad Hall",
@@ -180,7 +180,7 @@ Bar.create!([
         description: "Laid-back nightclub with a dance floor and spacious patio.",
         neighborhood_id: 1,
         bar_url: "http://toadhallbar.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/cxVZOOw.png"
       },
       {
         name: "Beaux",
@@ -190,7 +190,7 @@ Bar.create!([
         description: "Fashionable bar with regular drag and go-go events.",
         neighborhood_id: 1,
         bar_url: "https://www.beauxsf.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/RYvIS09.png"
       },
       {
         name: "The Cafe",
@@ -200,7 +200,7 @@ Bar.create!([
         description: "Castro's biggest nightclub with spacious dance floor and DJs.",
         neighborhood_id: 1,
         bar_url: "https://cafesf.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/8WIxGuf.png"
       },
       {
         name: "Hi Tops",
@@ -210,7 +210,7 @@ Bar.create!([
         description: "Country's first gay sports bar popular for game days.",
         neighborhood_id: 1,
         bar_url: "https://www.hitopsbar.com/hi-tops-sf",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/fOstx7C.png"
       },
       {
         name: "Lookout",
@@ -220,7 +220,7 @@ Bar.create!([
         description: "Lofted bar with outdoor patio for Castro people-watching",
         neighborhood_id: 1,
         bar_url: "https://m.facebook.com/profile.php?id=311959905596956&__tn__=C-R",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/WmNdYj2.png"
       },
       {
         name: "Pilsner Inn",
@@ -230,7 +230,7 @@ Bar.create!([
         description: "Laid-back gem featuring a spacious back patio.",
         neighborhood_id: 1,
         bar_url: "http://www.pilsnerinn.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/21mRpon.jpg"
       },
       {
         name: "Oasis",
@@ -240,7 +240,7 @@ Bar.create!([
         description: "Pioneering drag bar and theater in SF's leather district.",
         neighborhood_id: 2,
         bar_url: "https://www.sfoasis.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/tKD30u6.png"
       },
       {
         name: "SF Eagle",
@@ -250,7 +250,7 @@ Bar.create!([
         description: "Famous bar at the epicenter of SF's historic Leather District.",
         neighborhood_id: 2,
         bar_url: "https://thesfeagle.com/?v=7516fd43adaa",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/954zhv1.png"
       },
       {
         name: "Lone Star Saloon",
@@ -260,7 +260,7 @@ Bar.create!([
         description: "Folsom's beariest bar with pool and a patio.",
         neighborhood_id: 2,
         bar_url: "https://www.lonestarsf.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/E5uWHGj.png"
       },
       {
         name: "Hole in the Wall Saloon",
@@ -270,7 +270,7 @@ Bar.create!([
         description: "Eclectic dive with punk meets leather aesthetic.",
         neighborhood_id: 2,
         bar_url: "https://www.facebook.com/groups/HITWSfans/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/clE1qEg.jpg"
       },
       {
         name: "Powerhouse",
@@ -280,7 +280,7 @@ Bar.create!([
         description: "Dirty, attitude-free cruisy leather bar.",
         neighborhood_id: 2,
         bar_url: "https://www.powerhousebar.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/iMtqryy.png"
       },
       {
         name: "Asia SF",
@@ -290,7 +290,7 @@ Bar.create!([
         description: "Pioneering trans space with nightly performers.",
         neighborhood_id: 2,
         bar_url: "https://sf.asiasf.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/AFenFBu.png"
       },
       {
         name: "Club OMG",
@@ -300,7 +300,7 @@ Bar.create!([
         description: "Cruisy mid-market oasis with popular underwear night",
         neighborhood_id: 2,
         bar_url: "http://www.clubomgsf.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/lNPd8Rn.png"
       },
       {
         name: "Aunt Charlie's Lounge",
@@ -310,7 +310,7 @@ Bar.create!([
         description: "lorem ipsum",
         neighborhood_id: 3,
         bar_url: "https://www.auntcharlieslounge.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/iQEqI8q.png"
       },
       {
         name: "The Cinch Saloon",
@@ -320,7 +320,7 @@ Bar.create!([
         description: "70s-era bar with queer diversity in SF’s legacy trans district.",
         neighborhood_id: 3,
         bar_url: "https://www.facebook.com/thecinchsaloon",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/QdZkhYJ.png"
       },
       {
         name: "Ginger's",
@@ -330,7 +330,7 @@ Bar.create!([
         description: "Revived homage to SF's gay bar history in the heart of the FiDi.",
         neighborhood_id: 3,
         bar_url: "https://www.gingers.bar/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/sWJzHFT.jpg"
       },
       {
         name: "Trax",
@@ -340,7 +340,7 @@ Bar.create!([
         description: "Diverse bar with pool in SF’s historic hippie district.",
         neighborhood_id: 3,
         bar_url: "https://traxbarsf.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/P7hHZkA.png"
       },
       {
         name: "Phone Booth",
@@ -350,7 +350,7 @@ Bar.create!([
         description: "Unpretentious south Mission gem that oozes coollorem ipsum",
         neighborhood_id: 4,
         bar_url: "https://www.yelp.com/biz/phone-booth-san-francisco",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/G7241sf.png"
       },
       {
         name: "El Rio",
@@ -360,7 +360,7 @@ Bar.create!([
         description: "Queer, but straight-friendly Mission bar with regular music and comedy events.",
         neighborhood_id: 4,
         bar_url: "https://www.elriosf.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/EFoG4BC.png"
       },
       {
         name: "Martuni's",
@@ -370,7 +370,7 @@ Bar.create!([
         description: "Martini-forward piano bar great for it's ambiance and singalongs.",
         neighborhood_id: 4,
         bar_url: "https://www.facebook.com/Martunis-994554857261865/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/wJTcNrd.png"
       },
       {
         name: "Jolene's Bar",
@@ -380,7 +380,7 @@ Bar.create!([
         description: "Women-owned queer bar with food, dancing and shows.",
         neighborhood_id: 4,
         bar_url: "https://www.jolenessf.com/index.html",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/2zxnTJi.png"
       },
       {
         name: "Wild Side West",
@@ -390,7 +390,7 @@ Bar.create!([
         description: "Bernal's country western lesbian bar great for karaoke and dancing.",
         neighborhood_id: 4,
         bar_url: "https://www.wildsidewest.com/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/Q1M3MSs.jpg"
       },
       {
         name: "The Mint",
@@ -400,7 +400,7 @@ Bar.create!([
         description: "Loungy karoke bar with stage and high energy.",
         neighborhood_id: 4,
         bar_url: "https://themint.net/",
-        img_url: "https://i.ibb.co/qp88mbH/bar-crawl.png"
+        img_url: "https://i.imgur.com/sB5QX9h.png"
       }
 
 ])
